@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+* {
+    font-family: "Outfit", "Young Serif";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.main-container {
+    max-width: 600px;
+    width: 50%;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.section-title{
+    font-family: "Young serif";
+    color: hsl(14, 45%, 36%);
+    font-size: 24px;
+    margin-bottom: 15px; 
+}
+
+.main-container>h1 {
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+.cover-image>img {
+    /* width: 500px;
+    height: 125px; */
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-header{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.short-description{
+    color: hsl(24, 5%, 18%);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.preparation-time{
+    background: hsl(330, 100%, 98%);
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.preparation-time h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+
+.preparation-list{
+    padding-left: 15px;
+    line-height: 30px;    
+}
+
+.preparation-list li{
+    color: rgb(78, 75, 75);
+    padding-left: 15px;
+    font-size: 16px;    
+}
+
+.preparation-list li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: 12px; 
+}
+
+span{
+    font-weight: bold;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(78, 75, 75);
+}
+
+.ingredients{
+    margin-bottom: 20px;
+}
+
+.ingredients header{
+    font-family: "Young serif";
+    color: hsl(14, 45%, 36%);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.required-ingredients{
+    line-height: 30px;
+    padding-left: 25px;
+}
+
+.required-ingredients li{
+    padding-left: 25px;
+    font-size: 16px;
+    color: rgb(78, 75, 75);;
+}
+
+.required-ingredients li::marker{
+    font-size: 12px;
+    color: hsl(332, 51%, 32%);
+}
+
+.instructions header{
+    font-family: "Young serif";
+    color: hsl(14, 45%, 36%);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.instructions ol {
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+.instructions li::marker{
+    font-size: 12px;
+    color: hsl(332, 51%, 32%);
+}
+
+.instructions li{
+    padding-left: 25px;
+    /* font-size: 16px; */
+    color: rgb(78, 75, 75);
+    margin-bottom: 10px;
+}
+
+.nutrition header{
+    font-family: "Young serif";
+    color: hsl(14, 45%, 36%);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.nutrition-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.type{
+    padding-left: 25px;
+    font-size: 16px;
+    color: rgb(78, 75, 75);;
+}
+
+.amount{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutrition-separator{
+    margin: 10px;
+}
+
+@media (max-width: 800px){
+    .main-container{
+        width: 100vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .cover-image img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
