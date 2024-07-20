@@ -37,12 +37,8 @@ p {
     margin-bottom: 15px; 
 }
 
-.main-container>h1 {
-    font-family: "Young Serif";
-    font-weight: 400;
-}
 
-.cover-image>img {
+.cover-image img {
     /* width: 500px;
     height: 125px; */
 
@@ -52,6 +48,8 @@ p {
 }
 
 .main-header{
+    font-family: "Young Serif";
+    font-weight: 400;
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -79,16 +77,17 @@ p {
     line-height: 30px;    
 }
 
-.preparation-list li{
+li{
     color: rgb(78, 75, 75);
     padding-left: 15px;
     font-size: 16px;    
+    margin-bottom: 10px;
 }
 
-.preparation-list li::marker{
+/* .preparation-list li::marker{
     color: hsl(332, 51%, 32%);
     font-size: 12px; 
-}
+} */
 
 span{
     font-weight: bold;
@@ -105,59 +104,51 @@ hr {
     margin-bottom: 20px;
 }
 
-.ingredients header{
-    font-family: "Young serif";
-    color: hsl(14, 45%, 36%);
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
 .required-ingredients{
     line-height: 30px;
     padding-left: 25px;
 }
 
-.required-ingredients li{
+/* .required-ingredients li{
     padding-left: 25px;
     font-size: 16px;
     color: rgb(78, 75, 75);;
-}
+} */
 
-.required-ingredients li::marker{
+/* .required-ingredients li::marker{
     font-size: 12px;
     color: hsl(332, 51%, 32%);
-}
+} */
 
-.instructions header{
+/* .instructions header{
     font-family: "Young serif";
     color: hsl(14, 45%, 36%);
     font-size: 24px;
     margin-bottom: 15px;
-}
+} */
 
 .instructions ol {
     font-size: 14px;
     padding-left: 18px;
 }
 
-.instructions li::marker{
+li::marker{
     font-size: 12px;
     color: hsl(332, 51%, 32%);
 }
 
-.instructions li{
+/* .instructions li{
     padding-left: 25px;
-    /* font-size: 16px; */
     color: rgb(78, 75, 75);
     margin-bottom: 10px;
-}
+} */
 
-.nutrition header{
+/* .nutrition header{
     font-family: "Young serif";
     color: hsl(14, 45%, 36%);
     font-size: 24px;
     margin-bottom: 15px;
-}
+} */
 
 .nutrition-container{
     display: flex;
